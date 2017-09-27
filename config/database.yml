@@ -10,12 +10,12 @@ development:
   database: personal_development
   username: walter
   password: password
-    
+  
 test:
   <<: *default
   database: personal_test
-      
-  production:
+    
+production:
   <<: *default
   database: personal_production
   #username: personal
